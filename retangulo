@@ -1,0 +1,42 @@
+# include  < iostream >
+	# include  < iomanip >
+	# include  < cmath >
+	
+
+	usando  namespace  std ;
+	
+
+	int  main (){
+	    base dupla , altura, área, perímetro, diagonal;
+	
+
+	    cout << " Base do retângulo: " ;
+	    cin >> base;
+	
+
+	    cout << " Altura do retângulo: " ;
+	    cin >> altura;
+	
+
+	    área = base * altura;
+	
+
+	    cout << fixo << setprecision ( 4 );
+	    cout << " AREA = " << area << endl;
+	
+
+	    perímetro = 2 * (base + altura);
+	
+
+	    cout << " PERIMETRO = " << perimetro << endl;
+	
+
+	    diagonal = sqrt (base * base + altura * altura);
+	
+
+	    cout << " DIAGONAL = " << diagonal << endl;
+	
+
+		retorna  0 ;
+	}
+
